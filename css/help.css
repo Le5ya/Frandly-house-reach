@@ -1,0 +1,135 @@
+.help {
+  padding: 174px 0;
+  background-color: #f2f0f1;
+}
+.help__title  {
+  text-align: center;
+  margin-bottom: 147px;
+  color: #ff8a00;
+}
+
+.help__subtitle {
+  font-family: 'Helvetica Neue Cyr Roman', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.help__subtitle_mb_more {
+  margin-bottom: 75px;
+}
+.help__list {
+  margin-bottom: 50px;
+}
+.help__item {
+  margin-bottom: 127px;
+
+}
+.help__item:last-child {
+  padding-bottom: 69px;
+}
+.help__number-plate {
+  float:left;
+  margin-top: -20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 15px 30px;
+}
+
+.help__number {
+  font-size: 50px;
+  line-height: 50px;
+  color: #ff8a00;
+}
+.help__description {
+  margin-left: 47px;
+  
+}
+
+.help__subtitle {
+  margin-left: 47px;
+}
+
+.definition__text {
+  width: 550px;
+  padding-bottom: 20px;
+}
+
+.definition__text_width_less {
+  padding-right: 110px;
+
+ }
+ .help__images {
+  display: grid;
+  float: right;
+  margin-top: -13%;
+  object-position: center;;
+  max-width: 580px;
+
+  gap: 20px;
+ }
+ .help__item:nth-child(1) .help__images {
+  height: 297px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 180px 380px;
+ }
+ .help__item:nth-child(1) .help__img:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+ }
+ .help__item:nth-child(1) .help__img:nth-child(2) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+ }
+ .help__item:nth-child(1) .help__img:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+ }
+ .help__item:nth-child(2) .help__img {
+   max-width: 580px;
+   height: auto;
+   /* float: left; */
+
+ }
+ .help__item:nth-child(2) {
+  position: relative;
+  height: 450px;
+} 
+.help__item:nth-child(2) .definition__text {
+  width: 580px;
+}
+.help__item:nth-child(2) .help__definition {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+ }
+ .help__item:nth-child(3) .help__images {
+  grid-template-columns: repeat(2, 280px);
+  grid-template-rows: repeat(2, 181px);
+  height: 382px;
+  
+ }
+ .help__item:nth-child(3) .help__image:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+ }
+ .help__item:nth-child(3) .help__image:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+ }
+ .help__item:nth-child(3) .help__image:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+ }
+ .help__wrap {
+  display: flex;
+  justify-content: center;
+ }
+
