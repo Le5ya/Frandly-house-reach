@@ -29,14 +29,8 @@
   margin-bottom: 30px;
 }
 .contacts__text {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 150%;
-  text-align: center;
-  color: #282626;
   padding-left: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 16px; 
 }
 .text__span {
   color: #f2994a;
@@ -44,11 +38,6 @@
 }
 .contacts__adress {
   display: block;
-  font-style: normal;
-  font-weight: 550;
-  font-size: 20px;
-  line-height: 150%;
-  color: #282626;
   margin-bottom: 30px;
 }
 .adress__list {
@@ -65,12 +54,18 @@
   display: inline-block;
   top: 5px;
   left: 0;
-  
   margin-right: 16px;
   width: 24px;
   height: 24px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.adress__text {
+  font-family: HelveticaNeueCyr;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px; 
 }
 .adress__item_img_phone {
   margin-bottom: 0px;

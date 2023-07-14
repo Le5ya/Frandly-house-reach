@@ -15,7 +15,7 @@
       <button class="header__menu" aria-haspopup="true" aria-label="Открыть меню">
         <img src="img/menu.svg" alt="Бургер-меню">
       </button>
-      <div class="lodo header__logo">
+      <div class="logo header__logo">
         <div class="logo__img">
           <img src="img/logo.svg" alt="Логотип">
         </div>
@@ -46,7 +46,7 @@
         </nav>
     </div>
       
-      <div class="phon header__phone">
+      <div class="phone header__phone">
         <img src="img/call.svg" class="header__phone-icon" alt="phone">
         <a href="tel:+79509302893" class="phone__text">8 (950) 930-28-93</a>
       </div>
@@ -58,10 +58,14 @@
       <div class="container hero__container">
         <div class="hero__panel">
           <div class="hero__anonce">
-            <h2 class="hero__title">Сара ждёт,</h2>
-            <p class="hero__text">
-              когда найдётся её человек
-            </p>
+            <h2 class="hero__title">Сара ждёт,
+              <span class="hero__text">
+                когда найдётся
+              </span>
+              <span class="hero__text">
+                её человек
+              </span>
+            </h2>
           </div>
           <button class="paw-button" aria-label="Открыть модальное окно">
               <img src="img/paw.svg" class="paw-icon" alt="Лапка"> 
@@ -106,7 +110,7 @@
                       <h3 class="subtitle project__subtitle">Новый дом для животных</h3>
                       <p class="text info__text">
                         Приют появился практически одновременно с созданием 
-                        <span class="info info__span">Фонда в</span> ...
+                        <span class="info__span">Фонда в</span> ...
                       </p>
                       <a href="" class="link info__link">Подробнее</a>
                     </div>
@@ -118,7 +122,7 @@
                     <div class="info project__info">
                       <h3 class="subtitle project__subtitle">Маленькие модники</h3>
                       <p class="text info__text">Наши котики и собачки тоже любят наряжаться, чтобы красиво 
-                        <span class="info info__span">выглядеть</span> ...
+                        <span class="info__span">выглядеть</span> ...
                       </p>
                       <a href="" class="link info__link">Подробнее</a>
                     </div>
@@ -131,7 +135,7 @@
                     <div class="info project__info">
                       <h3 class="subtitle project__subtitle">Поиграй со мной!</h3>
                       <p class="text info__text">Новая программа нашего приюта “Поиграй со мной”. Приводите 
-                        <span class="info info__span">своих</span> ...
+                        <span class="info__span">своих</span> ...
                       </p>
                       <a href="" class="link info__link">Подробнее</a>
                     </div>
@@ -144,7 +148,7 @@
                     <div class="info project__info">
                       <h3 class="subtitle project__subtitle">Конкурс “Лучшее фото”</h3>
                       <p class="text info__text">Приходи к нам в Friendly House и делай классные фотографии 
-                        <span class="info info__span">наших животн</span>...
+                        <span class="info__span">наших животн</span>...
                       </p>
                       <a href="" class="link info__link">Подробнее</a>
                     </div>
@@ -210,63 +214,63 @@
           <h2 class="title help__title">Как ты можешь нам помочь?</h2>
         <ul class="help__list">
           <li tabindex="0" class="help__item">
-            <div class="help__number-plate">
-              <p class="help__number">1</p>
-            </div>
-            
             <div class="help__description">
-              <h3 class="help__subtitle">Финансово</h3>
-              <figure class="help__images">
-                  <img class="help__img" src="img/rabbit.jpg" alt="Кролик и морковка">
-                  <img class="help__img" src="img/image-4-small.jpg" alt="Собака показывает язык">
-                  <img class="help__img" src="img/dog-in-gips.jpg" alt="Собака в ветеринарном воротнике">
-              </figure>
-                  <p class="definition__text definition__text_width_less">Мы будем рады любым пожертвованиям. 
+              <div class="help__number-plate">
+                <p class="help__number">1</p>
+              </div>
+              <h3 class="subtitle help__subtitle">
+                  Финансово
+              </h3>
+                  <p class="help__text help__text_width_less">Мы будем рады любым пожертвованиям. 
                     Деньги пойдут на корм, лечение и уход, 
                     а также, на обустройство территории, где обитают наши маленькие питомцы.</p>
-              </div>
+            </div>
+              <figure class="help__images">
+                <img class="help__img" src="img/rabbit.jpg" alt="Кролик и морковка">
+                <img class="help__img" src="img/image-4-small.jpg" alt="Собака показывает язык">
+                <img class="help__img" src="img/dog-in-gips.jpg" alt="Собака в ветеринарном воротнике">
+            </figure>
           </li>
           <li tabindex="0" class="help__item">
-            <div class="help__number-plate">
-              <p class="help__number">2</p>
-            </div>
-            
-            <div class="help__description">
-            <h3 class="help__subtitle">Стать волонтером</h3>
-            <div class="definition help__definition">
+            <div class="help__left">
+              <div class="help__number-plate">
+                <p class="help__number">2</p>
+              </div>
+              <h3 class="subtitle help__subtitle help__subtitle_2">
+                Стать волонтером
+              </h3>
               <img class="help__img" src="img/girl-and-dog.jpg" alt="Девочка и собака">
-              <div class="definition__texts">
-                <p class="definition__text definition__text_vol">
+            </div>
+              <div class="help__texts">
+                <p class="help__text help__text_vol">
                   Наш приют "Friendly House" привлекает волонтеров для оказания помощи в самых разных форматах! От финансовой помощи и набирающего популярность интеллектуального волонтерства до помощи руками.  
                 </p>
-                <p class="definition__text definition__text_vol">
+                <p class="help__text help__text_vol">
                   Нам всегда нужна помощь с выгулом подопечных, уборкой помещений, привезти в приют корм или медикаменты, помочь с перевозкой животных в клиники, забрать и привезти вещи и много всего другого. Мы всегда рады любой помощи.
                 </p>
               </div>
-            </div>
-            </div>
           </li>
           <li tabindex="0" class="help__item">
-            <div class="help__number-plate">
-              <p class="help__number">3</p>
-            </div>
-            <div class="description help__description">
-              <h3 class="help__subtitle">Стать опекуном</h3>
-
-              <figure class="help__images help__images_com">
-                <img class="help__image" src="img/cat-meo.jpg" alt="Кошка ияукает">
-                <img class="help__image" src="img/cat&finger.jpg" alt="Кот ловит палец хозяйки">
-                <img class="help__image" src="img/frandsheep.jpg" alt="Человек с собакой">
-              </figure> 
-
-                <div class="definition help__definition">
-                  <p class="definition__text definition__text_width_less">
+            <div class="help__description">
+              <div class="help__number-plate help__number-plate_3">
+                <p class="help__number">3</p>
+              </div>
+              <h3 class="subtitle help__subtitle">
+                Стать опекуном
+              </h3>
+                <div class="help__texts">
+                  <p class="help__text help__text_width_less">
                     Хотите друга, но не можете взять домой? Проект опеки - идеальное решение!
                   </p>
-                <p class="definition__text definition__text_width_less">
+                <p class="help__text help__text_width_less">
                   Bзять под опеку животное, у которого еще нет опекуна, – это как завести питомца, о котором всю жизнь мечтал, но не мог себе этого позволить по&nbsp;каким-либо причинам.</p>
                 </div>
             </div>
+            <figure class="help__images help__images_com">
+              <img class="help__image" src="img/cat-meo.jpg" alt="Кошка ияукает">
+              <img class="help__image" src="img/cat&finger.jpg" alt="Кот ловит палец хозяйки">
+              <img class="help__image" src="img/frandsheep.jpg" alt="Человек с собакой">
+            </figure> 
           </li>
         </ul>
         <div class="help__wrap">

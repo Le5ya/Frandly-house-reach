@@ -1,6 +1,6 @@
 .projects__grid {
   display: grid;
-  grid-template-columns: 680px 380px;
+  grid-template-columns: min-content 380px;
   justify-content: space-between;
   gap: 20px;
   
@@ -57,10 +57,7 @@ margin-bottom: 19px;
 }
 .bunner__title {
   position: absolute;
-  font-family: 'HelveticaNeueCyr';
   font-weight: 550;
-  font-size: 30px;
-  line-height: 133%;
   color: #FFFFFF;
   max-width: 360px;
   top: 293px;
